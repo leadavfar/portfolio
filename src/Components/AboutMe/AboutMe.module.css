@@ -1,0 +1,9 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 500px;
+}
+.about img{
+margin-right: 50px;
+}

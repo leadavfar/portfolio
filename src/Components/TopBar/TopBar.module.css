@@ -1,0 +1,30 @@
+.fixed {
+    display: flex;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(75, 255, 75);
+  }
+
+.li1 {
+    display: inline;
+    color: black;
+    font-size: 30px;
+}
+.ul1{
+   /* position: absolute; */
+    left: 50px;
+}
+
+.li2 {
+    display: inline;
+    color: black;
+    font-size: 30px;
+}
+
+.ul2{
+    position: absolute;
+    right: 50px;
+}
