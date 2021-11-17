@@ -1,6 +1,5 @@
 .title{
     font-size: 50px;
-    margin-top: 100px;
     margin-left: 100px;
 }
 
@@ -9,24 +8,55 @@
     margin-left: 100px;
 }
 
-.projects{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: space-around;
-}
+  .container{
+    margin-left: 100px;
+    margin-right: 100px;
+      display: grid;
+      grid-template-columns: 40% 40% ;
+      justify-content: space-around;
+  }
 
-.project{
+  .card{
+      margin: 50px;
+      background: rgb(75, 255, 75);
+      color: black;
+      cursor: default;
+      transition: all 400ms ease;
+      outline: 5px solid #000;
+      outline-offset: -4px;
+  }
+
+/*   .card:hover{
+      transform: translatey(-3%);
+  } */
+
+  .card img{
+    width: 100%;
+    outline: 5px solid #000;
+    outline-offset: -4px;
+  }
+
+  .card .contenido{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+    
   }
 
-  .projects h2{
-      margin-left: 10px;
+  .card .contenido p {
+    margin-top: -10px;
   }
 
-.projects p{
-      margin-top: -10px;
-      margin-left: 10px;
+  .card .contenido button {
+      background: black;
+      color: white;
   }
+
+  .card .contenido button:hover {
+    cursor: pointer;
+}

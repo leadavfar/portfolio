@@ -4,20 +4,26 @@
 }
 
 .subtitle{
-    margin-left: 100px;
-    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-bottom: 30px;
 }
 
-.contact{
-    margin-left: 100px;
+.container{
+    margin-left: 150px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.mailContact{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    width: 50%;
 }
 
 .input{
     font-size:20px;
-    width: 35%;
+    width: 70%;
     background-color: transparent ;
     color: white;
     padding: 15px;
@@ -35,6 +41,25 @@
     outline: none;
 /*     transition-duration: 250ms;
     box-shadow: white 0px 0px 4px 0px, 0px 0px 4px 0px ; */
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    width: 70%;
+    background-color: transparent ;
+    color: rgb(75, 255, 75);
+    /* padding: 15px; */
+    /* border-radius: 5px; */
+  /*   border-style: solid;
+    border-width: 3px;
+    border-color: rgb(75, 255, 75); */
+    margin-bottom: 20px;
+}
+
+.contact a{
+    margin-left: 30px;
 }
 
 .button{

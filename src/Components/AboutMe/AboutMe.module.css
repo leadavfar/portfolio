@@ -4,6 +4,25 @@
     margin-left: 100px;
     margin-right: 500px;
 }
+
 .about img{
 margin-right: 50px;
+}
+
+.button{
+    font-size:20px;
+    width: 37%;
+    background-color: transparent ;
+    color: black;
+    padding: 15px;
+    /* border-radius: 5px; */
+    border-style: solid;
+    border-color: rgb(75, 255, 75);
+    background-color: rgb(75, 255, 75);
+}
+
+.button:hover{
+    cursor: pointer;
+/*     transition-duration: 250ms;
+    box-shadow: white 0px 0px 4px 0px, 0px 0px 4px 0px ; */
 }

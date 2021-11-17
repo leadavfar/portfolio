@@ -37,7 +37,7 @@ export default function AboutMe() {
                         Full Stack Developer- Henry Bootcamp
                         2021-2021
                     </p>
-                    <button>Download CV</button>
+                    <button className={Styles.button}> <b>Download CV</b></button>
                 </div>
             </div>
         </div>

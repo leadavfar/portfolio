@@ -7,10 +7,9 @@
 
 .home h6{
     margin-bottom: -40px;
+    color: gray
 }
 
-
-
-h6{
-color: gray
+.home h3{
+color: rgb(75, 255, 75);
 }
