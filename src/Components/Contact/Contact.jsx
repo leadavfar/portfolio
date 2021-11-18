@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from 'emailjs-com';
-import { SiWhatsapp, SiGmail, SiGithub, SiLinkedin, SiGit } from "react-icons/si"
+import { SiWhatsapp, SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
+import { FaCity } from "react-icons/fa";
 import Styles from "./Contact.module.css";
 import { IconContext } from "react-icons";
 
@@ -69,30 +70,37 @@ export default function Contact() {
                 </div>
 
                 <div className={Styles.mailContact}>
-                <IconContext.Provider value={{ size: 50}}>
+                    <IconContext.Provider value={{ size: 50 }}>
 
-                    <div className={Styles.contact}>
-                        <SiWhatsapp />
-                        <p> <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"> +54 9 6495 0511 </a></p>
-                    </div>
+                        <div className={Styles.contact}>
+                            <FaCity />
+                            <p> <a href='https://www.google.com/maps/place/Provincia+de+Buenos+Aires/@-37.0651019,-64.5166925,6z/data=
+                            !3m1!4b1!4m5!3m4!1s0x95edbcb7595281d9:0x4ad309fcdcf0a144!8m2!3d-37.2017285!4d-59.8410697' target="_blank">
+                                Buenos Aires, Argentina </a></p>
+                        </div>
+
+                        <div className={Styles.contact}>
+                            <SiWhatsapp />
+                            <p> <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"> +54 9 6495 0511 </a></p>
+                        </div>
 
 
-                    <div className={Styles.contact}>
+                        <div className={Styles.contact}>
 
-                        <SiGmail />
-                        <p> <a href='mailto:leandrodavidfarias@gmail.com' > leandrodavidfarias@gmail.com </a></p>
-                    </div>
+                            <SiGmail />
+                            <p> <a href='mailto:leandrodavidfarias@gmail.com' > leandrodavidfarias@gmail.com </a></p>
+                        </div>
 
-                    <div className={Styles.contact}>
-                        <SiGithub />
-                        <p> <a href='https://github.com/leadavfar' target="_blank">github.com/leadavfar </a></p>
-                    </div>
+                        <div className={Styles.contact}>
+                            <SiGithub />
+                            <p> <a href='https://github.com/leadavfar' target="_blank">github.com/leadavfar </a></p>
+                        </div>
 
-                    <div className={Styles.contact}>
-                        <SiLinkedin />
-                        <p> <a href='https://www.linkedin.com/in/leadavfar/' target="_blank"> linkedin.com/in/leadavfar/</a></p>
-                    </div>
-                    
+                        <div className={Styles.contact}>
+                            <SiLinkedin />
+                            <p> <a href='https://www.linkedin.com/in/leadavfar/' target="_blank"> linkedin.com/in/leadavfar/</a></p>
+                        </div>
+
                     </IconContext.Provider>
 
                 </div>

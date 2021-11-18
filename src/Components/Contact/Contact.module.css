@@ -3,6 +3,16 @@
     margin-left: 100px;
 }
 
+.title::after {
+    content: '';
+    width: 7%;
+    height: 5px;
+    display: block;
+    background: rgb(100,100,100);
+    transition: 300ms;
+    border-radius: 100px;
+  }
+
 .subtitle{
     margin-left: 150px;
     margin-bottom: 30px;
@@ -46,7 +56,7 @@
 .contact{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     width: 70%;
     background-color: transparent ;
     color: rgb(75, 255, 75);
@@ -64,9 +74,9 @@
 
 .button{
     font-size:20px;
-    width: 37%;
+    width: 75%;
     background-color: transparent ;
-    color: black;
+    color: #111111;
     padding: 15px;
     /* border-radius: 5px; */
     border-style: solid;

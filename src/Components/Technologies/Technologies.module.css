@@ -4,6 +4,16 @@
     margin-bottom: 75px;
 }
 
+.title::after {
+  content: '';
+  width: 10%;
+  height: 5px;
+  display: block;
+  background: rgb(100,100,100);
+  transition: 300ms;
+  border-radius: 100px;
+}
+
 .icons{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
