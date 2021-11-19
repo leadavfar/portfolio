@@ -1,24 +1,43 @@
 .about{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
-    margin-right: 500px;
+    margin-left: 150px;
+    margin-right: 350px;
 }
 
 .about img{
-margin-right: 50px;
+margin-right: 100px;
 }
+
+.all{
+    position: relative;
+}
+
+.title{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.title::after {
+    content: '';
+    width: 7%;
+    height: 5px;
+    display: block;
+    background: rgb(100,100,100);
+    transition: 300ms;
+    border-radius: 100px;
+  }
 
 .button{
     font-size:20px;
-    width: 37%;
-    background-color: transparent ;
+    width: 100%;
     color: #111111;
     padding: 15px;
     /* border-radius: 5px; */
-    border-style: solid;
-    border-color: rgb(75, 255, 75);
-    background-color: rgb(75, 255, 75);
+    border-style: none;
+    background: rgb(75, 255, 75);
+    position: absolute;
+    bottom: 0px;
 }
 
 .button:hover{
@@ -26,3 +45,56 @@ margin-right: 50px;
 /*     transition-duration: 250ms;
     box-shadow: white 0px 0px 4px 0px, 0px 0px 4px 0px ; */
 }
+
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* margin: 50px auto; */
+    /* padding: 25px; */
+    /* font-weight: bold; */
+}
+
+.mytabs input[type="radio"]{
+    display: none;
+}
+
+.mytabs label{
+    /* padding: 25px; */
+    margin-right: 25px;
+}
+
+.mytabs .tab{
+    width: 100%;
+    /* padding: 20px; */
+    padding-top: 5px;
+    order: 1;
+    display: none;
+}
+
+.mytabs input[type='radio']:checked + label + .tab{
+    display: block;
+}
+
+.mytabs input[type='radio']:checked + label{
+}
+
+.mytabs label:hover{
+    cursor: pointer;
+}
+
+.mytabs label::after {
+    content: '';
+    width: 0%;
+    height: 4px;
+    display: block;
+    background: rgb(100,100,100);
+    background: rgb(75, 255, 75);
+    transition: 0.3s;
+    border-radius: 100px;
+    margin-top: -22px;
+  }
+
+  .mytabs input[type='radio']:checked + label::after {
+      width: 100%;
+  }
