@@ -85,7 +85,7 @@ margin-right: 100px;
 
 .mytabs label::after {
     content: '';
-    width: 0%;
+    width: 10px;
     height: 4px;
     display: block;
     background: rgb(100,100,100);

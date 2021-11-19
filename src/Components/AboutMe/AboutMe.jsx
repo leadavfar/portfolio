@@ -63,7 +63,7 @@ export default function AboutMe() {
                         </div>
                     </div>
                     <div className={Styles.button__position}>
-                        <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank">
+                        <a href='https://drive.google.com/file/d/1D80jOeL5C3X9N437EGy0jJ_r2XaM3eQH/view?usp=sharing' target="_blank">
                             <button className={Styles.button}> <b>Download CV</b>
                             </button></a>
                     </div>
