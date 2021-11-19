@@ -20,7 +20,7 @@ export default function Technologies() {
                     <div className={Styles.iconOrder}><SiCss3 />CSS3</div>
                     <div className={Styles.iconOrder}><SiReact />React</div>
                     <div className={Styles.iconOrder}><SiRedux />Redux</div>
-                    <div className={Styles.iconOrder}><SiMaterialui />Material UI</div>
+                    {/* <div className={Styles.iconOrder}><SiMaterialui />Material UI</div> */}
                     <div className={Styles.iconOrder}><SiExpress />Express</div>
                     <div className={Styles.iconOrder}><SiPostgresql />PostgreSQL</div>
                     <div className={Styles.iconOrder}><SiSequelize />Sequelize</div>

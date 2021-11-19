@@ -2,6 +2,8 @@ import React from "react";
 import carshop from "../../Images/CARSHOP.png";
 import foodpage from "../../Images/foodpage.png";
 import Styles from "./Works.module.css";
+import { SiGithub } from "react-icons/si";
+import { FaLink } from "react-icons/fa"
 
 export default function Works() {
     return (
@@ -11,27 +13,42 @@ export default function Works() {
             <h2 className={Styles.subtitle}>Some of the projects I have worked on</h2>
 
             <div className={Styles.container}>
+
                 <div className={Styles.card}>
+                    <div className={Styles.image}>
+                        <img className={Styles.image__img} src={carshop} alt="not found" />
 
-                    <img src={carshop} alt="not found" />
-
-                    <div className={Styles.contenido}>
+                        <div className={Styles.image__overlay}>
+                            <div className={Styles.image__links}>
+                                <a href='https://github.com/leadavfar/Proyecto-Final.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                                <a href='https://proyecto-final-one.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Styles.description}>
                         <h2>Carshop</h2>
                         <p> E-Commerce </p>
-                        {/* <button>GO</button> */}
                     </div>
                 </div>
 
                 <div className={Styles.card}>
+                    <div className={Styles.image}>
+                        <img className={Styles.image__img} src={foodpage} alt="not found" />
 
-                    <img src={foodpage} alt="not found" />
-
-                    <div className={Styles.contenido}>
+                        <div className={Styles.image__overlay}>
+                            <div className={Styles.image__links}>
+                                <a href='https://github.com/leadavfar/FT16a-PI-Food.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Styles.description}>
                         <h2>The Food Page</h2>
-                        <p>React App</p>
-                        {/* <button>GO</button> */}
+                        <p> React App </p>
                     </div>
                 </div>
+
+
             </div>
         </div>
     )
