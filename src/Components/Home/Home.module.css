@@ -1,12 +1,12 @@
 .home{
-    font-size: 45px;
+    font-size: 30px;
     margin-top: 120px;
     margin-bottom: 120px;
     margin-left: 100px;
 }
 
 .home h6{
-    margin-bottom: -40px;
+    margin-bottom: -30px;
     color: gray
 }
 

@@ -12,7 +12,7 @@ export default function Technologies() {
             <hr />
             <h1 className={Styles.title} >Technologies</h1>
             <div className={Styles.icons}>
-                <IconContext.Provider value={{ className: Styles.iconStyle, size: 120 }}>
+                <IconContext.Provider value={{ className: Styles.iconStyle, size: 100 }}>
                     <div className={Styles.iconOrder}><SiJavascript />JavaScript</div>
                     <div className={Styles.iconOrder}><SiTypescript />TypeScript</div>
                     <div className={Styles.iconOrder}><SiNodedotjs />NodeJs</div>

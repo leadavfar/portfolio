@@ -1,5 +1,5 @@
 .title{
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 100px;
 }
 
@@ -15,14 +15,14 @@ border-radius: 100px;
 
 .subtitle{
   margin-bottom: 20px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 .container{
   margin-left: 100px;
   margin-right: 100px;
     display: grid;
-    grid-template-columns: 40% 40% ;
+    grid-template-columns: 45% 45% ;
     justify-content: space-around;
 }
 

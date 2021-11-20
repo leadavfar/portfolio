@@ -9,12 +9,14 @@
     z-index: 2;
     background-color: rgb(75, 255, 75);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .hashes{
     display: flex;
     margin-left: 50px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 .hash{
@@ -39,6 +41,8 @@
     display: flex;
     position: absolute;
     right: 50px;
+    margin-top: -10px;
+    margin-bottom: -15px;
 }
 
 .link{

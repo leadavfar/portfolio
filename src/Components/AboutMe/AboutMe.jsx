@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../Images/FINAL FOTO cut viñeta.jpg"
+import Photo from "../../Images/FINAL FOTO cuted.jpg"
 import Styles from "./AboutMe.module.css"
 
 export default function AboutMe() {
@@ -17,7 +17,7 @@ export default function AboutMe() {
                     <div>
                         <div className={Styles.mytabs}>
                             <input type='radio' id='me' name='mytabs' defaultChecked></input>
-                            <label for='me'><h1>Me</h1></label>
+                            <label for='me'><h2>Me</h2></label>
                             <div className={Styles.tab}>
                                 <p>
                                     <b>Full Name</b> - Leandro David Farias <br />
@@ -31,7 +31,7 @@ export default function AboutMe() {
                             </div>
 
                             <input type='radio' id='experience' name='mytabs'></input>
-                            <label for='experience'><h1>Experience</h1></label>
+                            <label for='experience'><h2>Experience</h2></label>
                             <div className={Styles.tab}>
                                 <p>
                                     <b>IT Support</b> - Digital Cold<br />
@@ -46,7 +46,7 @@ export default function AboutMe() {
                             </div>
 
                             <input type='radio' id='education' name='mytabs'></input>
-                            <label for='education'><h1>Education and Certification</h1></label>
+                            <label for='education'><h2>Education and Certification</h2></label>
                             <div className={Styles.tab}>
                                 <p>
                                     <b>Full Stack Developer</b> - Henry Bootcamp <br />

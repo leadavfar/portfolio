@@ -70,7 +70,7 @@ export default function Contact() {
                 </div>
 
                 <div className={Styles.mailContact}>
-                    <IconContext.Provider value={{ size: 50 }}>
+                    <IconContext.Provider value={{ size: 40 }}>
 
                         <div className={Styles.contact}>
                             <FaCity />
