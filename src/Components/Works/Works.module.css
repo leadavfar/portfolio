@@ -126,3 +126,13 @@ border-radius: 100px;
 .card .description p {
   margin-top: -10px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .container{
+    grid-template-columns: 100%;
+  }
+  .subtitle{
+    font-size: 14px;
+    margin-right: 150px;
+  }
+}

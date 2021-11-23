@@ -82,6 +82,7 @@
     border-style: solid;
     border-color: rgb(75, 255, 75);
     background-color: rgb(75, 255, 75);
+    font-weight: bolder; 
 }
 
 .button:hover{
@@ -93,3 +94,51 @@
 textarea{
     resize: none;
 }
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    
+    .container{
+        flex-direction: column;
+    }
+
+    .mailContact{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .input{
+        font-size: 30px;
+        margin-bottom: 20px;
+        width: 75%;
+    }
+
+    .button{
+        font-size: 40px;
+        padding: 10px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
+    .subtitle{
+      font-size: 14px;
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        font-size: 35px;
+        width: 100%;
+        background-color: transparent ;
+        color: rgb(75, 255, 75);
+        /* padding: 15px; */
+        /* border-radius: 5px; */
+      /*   border-style: solid;
+        border-width: 3px;
+        border-color: rgb(75, 255, 75); */
+        margin-bottom: 20px;
+        margin-top: -50px;
+    }
+  }
+  

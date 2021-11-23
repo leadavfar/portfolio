@@ -62,3 +62,26 @@
   .link:hover::after {
     width: 100%;
   }
+
+
+  @media screen and (min-width: 300px) and (max-width: 1000px) {
+    .container{
+      width: 100%;
+      z-index: 2;
+      background-color: rgb(75, 255, 75);
+      font-weight: bolder;
+      font-size: 35px;
+  }
+  
+  .hashes{
+      display: flex;
+      margin-left: 50px;
+      margin-top: -25px;
+      margin-bottom: -25px;
+  }
+
+  .links{
+    pointer-events: none;
+    opacity: 0;
+  }
+  }

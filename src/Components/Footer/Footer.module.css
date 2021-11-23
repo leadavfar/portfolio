@@ -1,5 +1,6 @@
 .foot {
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
     bottom: 0;
@@ -14,5 +15,11 @@
     display: inline;
     margin-left: 30px;
     color: #111111;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .text{
+    font-size: 15px;
+  }
 }
