@@ -1,5 +1,5 @@
 import React from "react";
-import carshop from "../../Images/carshop.png";
+import carshop from "../../Images/CARSHOP.png";
 import foodpage from "../../Images/foodpage.png";
 import portfolio from "../../Images/portfolio.png";
 import weatherapp from "../../Images/weatherapp.png";
