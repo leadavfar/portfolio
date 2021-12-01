@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   .icons{
-    font-size: 20px;
+    font-size: 30px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }

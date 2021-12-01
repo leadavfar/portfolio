@@ -1,7 +1,6 @@
 .container{
     display: flex;
     position: sticky;
-    align-content: center;
     top: 0;
     left: 0;
     right: 0;
@@ -66,22 +65,18 @@
 
   @media screen and (min-width: 300px) and (max-width: 1000px) {
     .container{
-      width: 100%;
-      z-index: 2;
-      background-color: rgb(75, 255, 75);
-      font-weight: bolder;
-      font-size: 35px;
+      justify-content: center;
+      font-size: 37px;
   }
   
   .hashes{
-      display: flex;
-      margin-left: 50px;
-      margin-top: -25px;
-      margin-bottom: -25px;
+      margin-left: 0px;
+      margin-top: -15px;
+      margin-bottom: -15px;
   }
 
   .links{
     pointer-events: none;
     opacity: 0;
   }
-  }
+}
