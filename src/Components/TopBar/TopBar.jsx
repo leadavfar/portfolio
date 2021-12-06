@@ -18,7 +18,7 @@ export default function TopBar() {
             <div className={Styles.links}>
                 <a href='https://github.com/leadavfar' target="_blank"><p className={Styles.link}> <SiGithub size={25} /></p> </a>
                 <a href='https://www.linkedin.com/in/leadavfar/' target="_blank"><p className={Styles.link}> <SiLinkedin size={25} /> </p></a>
-                <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"><p className={Styles.link}> <SiWhatsapp size={25} /></p></a>
+                {/* <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"><p className={Styles.link}> <SiWhatsapp size={25} /></p></a> */}
             </div>
 
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from 'emailjs-com';
 import { SiWhatsapp, SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
+import {BsFillTelephoneFill} from "react-icons/bs"
 import { FaCity } from "react-icons/fa";
 import Styles from "./Contact.module.css";
 import { IconContext } from "react-icons";
@@ -79,10 +80,16 @@ export default function Contact() {
                                 Buenos Aires, Argentina </a></p>
                         </div>
 
-                        <div className={Styles.contact}>
+                        {/* <div className={Styles.contact}>
                             <SiWhatsapp />
                             <p> <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"> +54 9 6495 0511 </a></p>
+                        </div> */}
+
+                        <div className={Styles.contact}>
+                            <BsFillTelephoneFill />
+                            <p className={Styles.phone}>  02202 2084-3114 </p>
                         </div>
+
 
 
                         <div className={Styles.contact}>
