@@ -80,15 +80,15 @@ export default function Contact() {
                                 Buenos Aires, Argentina </a></p>
                         </div>
 
-                        {/* <div className={Styles.contact}>
+                        <div className={Styles.contact}>
                             <SiWhatsapp />
                             <p> <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"> +54 9 6495 0511 </a></p>
-                        </div> */}
+                        </div>
 
-                        <div className={Styles.contact}>
+                        {/* <div className={Styles.contact}>
                             <BsFillTelephoneFill />
                             <p className={Styles.phone}>  02202 2084-3114 </p>
-                        </div>
+                        </div> */}
 
 
 
