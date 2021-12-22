@@ -82,7 +82,7 @@ export default function Contact() {
 
                         <div className={Styles.contact}>
                             <SiWhatsapp />
-                            <p> <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"> +54 9 6495 0511 </a></p>
+                            <p> <a href='https://api.whatsapp.com/send?phone=541164950511' target="_blank"> +54 9 011 64950511 </a></p>
                         </div>
 
                         {/* <div className={Styles.contact}>
