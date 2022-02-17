@@ -3,6 +3,7 @@ import carshop from "../../Images/CARSHOP.png";
 import foodpage from "../../Images/foodpage.png";
 import portfolio from "../../Images/portfolio.png";
 import weatherapp from "../../Images/weatherapp.png";
+import notesapp from "../../Images/NotesApp.png"
 import Styles from "./Works.module.css";
 import { SiGithub } from "react-icons/si";
 import { FaLink } from "react-icons/fa"
@@ -52,22 +53,6 @@ export default function Works() {
 
                 <div className={Styles.card}>
                     <div className={Styles.image}>
-                        <img className={Styles.image__img} src={portfolio} alt="not found" />
-
-                        <div className={Styles.image__overlay}>
-                            <div className={Styles.image__links}>
-                                <a href='https://github.com/leadavfar/portfolio.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={Styles.description}>
-                        <h2>Portfolio</h2>
-                        <p> React App </p>
-                    </div>
-                </div>
-
-                <div className={Styles.card}>
-                    <div className={Styles.image}>
                         <img className={Styles.image__img} src={weatherapp} alt="not found" />
 
                         <div className={Styles.image__overlay}>
@@ -79,6 +64,39 @@ export default function Works() {
                     </div>
                     <div className={Styles.description}>
                         <h2>Weather App</h2>
+                        <p> React App </p>
+                    </div>
+                </div>
+
+                <div className={Styles.card}>
+                    <div className={Styles.image}>
+                        <img className={Styles.image__img} src={notesapp} alt="not found" />
+
+                        <div className={Styles.image__overlay}>
+                            <div className={Styles.image__links}>
+                                <a href='https://github.com/leadavfar/notes-app' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                                <a href='https://note-node-app.herokuapp.com/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Styles.description}>
+                        <h2>Notes App</h2>
+                        <p> React App </p>
+                    </div>
+                </div>
+
+                <div className={Styles.card}>
+                    <div className={Styles.image}>
+                        <img className={Styles.image__img} src={portfolio} alt="not found" />
+
+                        <div className={Styles.image__overlay}>
+                            <div className={Styles.image__links}>
+                                <a href='https://github.com/leadavfar/portfolio.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Styles.description}>
+                        <h2>Portfolio</h2>
                         <p> React App </p>
                     </div>
                 </div>
