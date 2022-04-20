@@ -109,6 +109,7 @@ export default function Works() {
                         <div className={Styles.image__overlay}>
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/le-chief-page.gitt' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                                <a href='https://le-chief-page.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
                             </div>
                         </div>
                     </div>
