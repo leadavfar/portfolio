@@ -20,6 +20,23 @@ export default function Works() {
 
                 <div className={Styles.card}>
                     <div className={Styles.image}>
+                        <img className={Styles.image__img} src={lechiefpage} alt="not found" />
+
+                        <div className={Styles.image__overlay}>
+                            <div className={Styles.image__links}>
+                                <a href='https://github.com/leadavfar/le-chief-page.gitt' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                                <a href='https://le-chief-page.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Styles.description}>
+                        <h2>Le Chief Page</h2>
+                        <p> React App </p>
+                    </div>
+                </div>
+
+                <div className={Styles.card}>
+                    <div className={Styles.image}>
                         <img className={Styles.image__img} src={carshop} alt="not found" />
 
                         <div className={Styles.image__overlay}>
@@ -32,23 +49,6 @@ export default function Works() {
                     <div className={Styles.description}>
                         <h2>Carshop</h2>
                         <p> E-Commerce </p>
-                    </div>
-                </div>
-
-                <div className={Styles.card}>
-                    <div className={Styles.image}>
-                        <img className={Styles.image__img} src={foodpage} alt="not found" />
-
-                        <div className={Styles.image__overlay}>
-                            <div className={Styles.image__links}>
-                                <a href='https://github.com/leadavfar/FT16a-PI-Food.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={Styles.description}>
-                        <h2>The Food Page</h2>
-                        <p> React App </p>
                     </div>
                 </div>
 
@@ -88,6 +88,23 @@ export default function Works() {
 
                 <div className={Styles.card}>
                     <div className={Styles.image}>
+                        <img className={Styles.image__img} src={foodpage} alt="not found" />
+
+                        <div className={Styles.image__overlay}>
+                            <div className={Styles.image__links}>
+                                <a href='https://github.com/leadavfar/FT16a-PI-Food.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
+                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Styles.description}>
+                        <h2>The Food Page</h2>
+                        <p> React App </p>
+                    </div>
+                </div>
+
+                <div className={Styles.card}>
+                    <div className={Styles.image}>
                         <img className={Styles.image__img} src={portfolio} alt="not found" />
 
                         <div className={Styles.image__overlay}>
@@ -98,23 +115,6 @@ export default function Works() {
                     </div>
                     <div className={Styles.description}>
                         <h2>Portfolio</h2>
-                        <p> React App </p>
-                    </div>
-                </div>
-
-                <div className={Styles.card}>
-                    <div className={Styles.image}>
-                        <img className={Styles.image__img} src={lechiefpage} alt="not found" />
-
-                        <div className={Styles.image__overlay}>
-                            <div className={Styles.image__links}>
-                                <a href='https://github.com/leadavfar/le-chief-page.gitt' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
-                                <a href='https://le-chief-page.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={Styles.description}>
-                        <h2>Le Chief Page</h2>
                         <p> React App </p>
                     </div>
                 </div>
