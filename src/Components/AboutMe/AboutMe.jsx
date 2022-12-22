@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../Images/FINAL FOTO cuted.jpg"
+import Photo from "../../Images/PROFILE.jpg"
 import Styles from "./AboutMe.module.css"
 
 export default function AboutMe() {
