@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import carshop from "../../Images/CARSHOP.png";
 import foodpage from "../../Images/foodpage.png";
 import portfolio from "../../Images/portfolio.png";
@@ -28,7 +29,7 @@ export default function Works() {
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/le-chief-page.gitt' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
                                 <a href='https://le-chief-page.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></a>
+                                <Link to='/Works/LeChiefPageInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
                     </div>
@@ -47,8 +48,7 @@ export default function Works() {
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/Proyecto-Final.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
                                 <a href='https://proyecto-final-one.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></a>
-
+                                <Link to='/Works/CarshopInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Works() {
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/weather-app.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
                                 <a href='https://weather-react-app-ten.vercel.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></a>
+                                <Link to='/Works/WeatherAppInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ export default function Works() {
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/notes-app' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
                                 <a href='https://note-node-app.herokuapp.com/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></a>
+                                <Link to='/Works/NotesNodeAppInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function Works() {
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/FT16a-PI-Food.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
                                 <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></a>
+                                <Link to='/Works/TheFoodPageInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ export default function Works() {
                         <div className={Styles.image__overlay}>
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/portfolio.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></a>
+                                <Link to='/Works/PortfolioInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
                     </div>
