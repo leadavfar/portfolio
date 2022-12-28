@@ -8,11 +8,11 @@ export default function TopBar() {
         <div className={Styles.container} id='topBar'>
 
             <div className={Styles.hashes}>
-                <HashLink smooth to='#landingPage' ><p className={Styles.hash}> Home</p> </HashLink>
-                <HashLink smooth to='#aboutMe' ><p className={Styles.hash}>About Me</p></HashLink>
-                <HashLink smooth to='#technologies'><p className={Styles.hash}>Technologies</p></HashLink>
-                <HashLink smooth to='#works' ><p className={Styles.hash}>Projects</p></HashLink>
-                <HashLink smooth to='#contact' ><p className={Styles.hash}>Contact </p></HashLink>
+                <HashLink smooth to='/#landingPage' ><p className={Styles.hash}> Home</p> </HashLink>
+                <HashLink smooth to='/#aboutMe' ><p className={Styles.hash}>About Me</p></HashLink>
+                <HashLink smooth to='/#technologies'><p className={Styles.hash}>Technologies</p></HashLink>
+                <HashLink smooth to='/#works' ><p className={Styles.hash}>Projects</p></HashLink>
+                <HashLink smooth to='/#contact' ><p className={Styles.hash}>Contact </p></HashLink>
             </div>
 
             <div className={Styles.links}>
