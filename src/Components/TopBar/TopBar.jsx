@@ -6,7 +6,6 @@ import Styles from './TopBar.module.css'
 export default function TopBar() {
     return (
         <div className={Styles.container} id='topBar'>
-
             <div className={Styles.hashes}>
                 <HashLink smooth to='/#landingPage' ><p className={Styles.hash}> Home</p> </HashLink>
                 <HashLink smooth to='/#aboutMe' ><p className={Styles.hash}>About Me</p></HashLink>

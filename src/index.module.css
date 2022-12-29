@@ -6,13 +6,21 @@ body {
 
 a:link,
 a:visited,
-a:active,
-a:hover {
+a:active {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
 }
 
-hr{
+a:hover {
+    color: rgb(75, 255, 75);
+}
+
+hr {
     border: solid rgb(100, 100, 100);
     opacity: 0.4;
     width: 80%;

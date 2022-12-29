@@ -85,7 +85,7 @@ export default function Works() {
                         <div className={Styles.image__overlay}>
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/notes-app' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
-                                <a href='https://note-node-app.herokuapp.com/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
+                                <a href='https://notes-app-production-0f62.up.railway.app/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
                                 <Link to='/Works/NotesNodeAppInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>

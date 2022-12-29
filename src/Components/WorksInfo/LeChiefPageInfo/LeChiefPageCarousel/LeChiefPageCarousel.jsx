@@ -19,25 +19,25 @@ export default function LeChiefPageCarousel() {
     };
     return (<div className={Styles.container}>
         <Slider {...settings}>
-            <div>
+            <div className={Styles.containerImage}>
                 <img src={image1} />
-                <h3>1</h3>
+                <p>Lets begin</p>
             </div>
             <div>
                 <img src={image2} />
-                <h3>2</h3>
+                <p>Many recipes from Spoonacular provided by my own API and recipes created by Users</p>
             </div>
             <div>
                 <img src={image3} />
-                <h3>3</h3>
+                <p>All relevant information are displayed, summary, diets, cuisines, steps and more</p>
             </div>
             <div>
                 <img src={image4} />
-                <h3>4</h3>
+                <p>You can add your own recipe fully detailed with this form</p>
             </div>
             <div>
                 <img src={image5} />
-                <h3>5</h3>
+                <p>Create, Read, Update and Delete your recipes</p>
             </div>
         </Slider>
     </div>
