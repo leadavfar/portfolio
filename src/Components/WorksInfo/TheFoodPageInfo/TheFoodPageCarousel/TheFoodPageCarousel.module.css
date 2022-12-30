@@ -1,0 +1,21 @@
+.container {
+    width: 900px;
+    margin: auto;
+
+    color: black;
+    background-color: rgb(75, 255, 75);
+}
+
+.container img {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    border-bottom: solid 3px black;
+}
+
+.container p {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}

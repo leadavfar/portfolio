@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import carshop from "../../Images/CARSHOP.png";
-import foodpage from "../../Images/foodpage.png";
-import portfolio from "../../Images/portfolio.png";
-import weatherapp from "../../Images/weatherapp.png";
-import notesapp from "../../Images/NotesApp.png"
-import lechiefpage from '../../Images/le-chief-page.png'
+import carshop from "../../Images/carShop.jpg";
+import foodpage from "../../Images/theFoodPage.jpg";
+import portfolio from "../../Images/portfolio.jpg";
+import weatherapp from "../../Images/weatherApp.jpg";
+import notesapp from "../../Images/notesNodeApp.jpg"
+import lechiefpage from '../../Images/leChiefPage.jpg'
 import Styles from "./Works.module.css";
 import { SiGithub } from "react-icons/si";
 import { FaLink } from "react-icons/fa"

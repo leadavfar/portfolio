@@ -2,11 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image1 from "../images/1.png"
-import image2 from "../images/2.png"
-import image3 from "../images/3.png"
-import image4 from "../images/4.png"
-import image5 from "../images/5.png"
+import image1 from "../images/1.jpg"
+import image2 from "../images/2.jpg"
+import image3 from "../images/3.jpg"
+import image4 from "../images/4.jpg"
+import image5 from "../images/5.jpg"
 import Styles from "./LeChiefPageCarousel.module.css"
 
 export default function LeChiefPageCarousel() {
