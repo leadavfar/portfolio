@@ -21,23 +21,23 @@ export default function PortfolioCarousel() {
         <Slider {...settings}>
             <div className={Styles.containerImage}>
                 <img src={image1} />
-                <p>Lets begin</p>
+                <p>The Navbar gonna take you to the page section that was selected, and it have my main links</p>
             </div>
             <div>
                 <img src={image2} />
-                <p>Many recipes from Spoonacular provided by my own API and recipes created by Users</p>
+                <p>Three tabs for three aspects o </p>
             </div>
             <div>
                 <img src={image3} />
-                <p>All relevant information are displayed, summary, diets, cuisines, steps and more</p>
+                <p>Icons styled to match with the page design</p>
             </div>
             <div>
                 <img src={image4} />
-                <p>You can add your own recipe fully detailed with this form</p>
+                <p>Cards react with mouse hover them and their show you the links</p>
             </div>
             <div>
                 <img src={image5} />
-                <p>Create, Read, Update and Delete your recipes</p>
+                <p>All my contact methods, plus you can send me a Mail from the web</p>
             </div>
         </Slider>
     </div>

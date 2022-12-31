@@ -12,8 +12,8 @@ export default function AboutMe() {
                     <h1 className={Styles.title}>About Me</h1>
                     <p>Hi! My name is Leandro, I'm a <b>Front-End</b> oriented <b>Full Stack Developer</b> and a <b>Pianist</b>.
                         I finished the Henry bootcamp with +800 hours of practice and now I'm actually looking
-                        for new challenges. I created this portfolio to show my information and the projects that
-                        i've been working on. Feel free to contact me!</p>
+                        for new challenges. I've created this portfolio to show my information and the projects that
+                        I've been working on. Feel free to contact me!</p>
                     <div>
                         <div className={Styles.mytabs}>
                             <input type='radio' id='me' name='mytabs' defaultChecked></input>
@@ -22,7 +22,7 @@ export default function AboutMe() {
                                 <p>
                                     <b>Full Name</b> - Leandro David Farias <br />
                                     <p />
-                                    <b>Age</b> - 25 <br />
+                                    <b>Age</b> - 26 <br />
                                     <p />
                                     <b>Location</b> - Buenos Aires, Argentina<br />
                                     <p />

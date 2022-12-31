@@ -6,7 +6,6 @@ import image1 from "../images/1.jpg"
 import image2 from "../images/2.jpg"
 import image3 from "../images/3.jpg"
 import image4 from "../images/4.jpg"
-import image5 from "../images/5.jpg"
 import Styles from "./NotesNodeAppCarousel.module.css"
 
 export default function NotesNodeAppCarousel() {
@@ -25,19 +24,15 @@ export default function NotesNodeAppCarousel() {
             </div>
             <div>
                 <img src={image2} />
-                <p>Many recipes from Spoonacular provided by my own API and recipes created by Users</p>
+                <p>Register/login users</p>
             </div>
             <div>
                 <img src={image3} />
-                <p>All relevant information are displayed, summary, diets, cuisines, steps and more</p>
+                <p>Create your own notes</p>
             </div>
             <div>
                 <img src={image4} />
-                <p>You can add your own recipe fully detailed with this form</p>
-            </div>
-            <div>
-                <img src={image5} />
-                <p>Create, Read, Update and Delete your recipes</p>
+                <p>Have total control of your notes</p>
             </div>
         </Slider>
     </div>

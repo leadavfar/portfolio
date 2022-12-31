@@ -25,19 +25,19 @@ export default function WeatherAppCarousel() {
             </div>
             <div>
                 <img src={image2} />
-                <p>Many recipes from Spoonacular provided by my own API and recipes created by Users</p>
+                <p>All relevant information are displayed</p>
             </div>
             <div>
                 <img src={image3} />
-                <p>All relevant information are displayed, summary, diets, cuisines, steps and more</p>
+                <p>You can add another 3 cities</p>
             </div>
             <div>
                 <img src={image4} />
-                <p>You can add your own recipe fully detailed with this form</p>
+                <p>And check the details from anyone of them</p>
             </div>
             <div>
                 <img src={image5} />
-                <p>Create, Read, Update and Delete your recipes</p>
+                <p>Also you can delete the cities</p>
             </div>
         </Slider>
     </div>

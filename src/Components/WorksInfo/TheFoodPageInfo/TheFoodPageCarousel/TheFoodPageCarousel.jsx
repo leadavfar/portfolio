@@ -23,11 +23,11 @@ export default function TheFoodPageCarousel() {
             </div>
             <div>
                 <img src={image2} />
-                <p>Many recipes from Spoonacular provided by my own API and recipes created by Users</p>
+                <p>Many recipes from Spoonacular provided by Spoonacular and created by users</p>
             </div>
             <div>
                 <img src={image3} />
-                <p>All relevant information are displayed, summary, diets, cuisines, steps and more</p>
+                <p>All relevant recipe information are displayed</p>
             </div>
         </Slider>
     </div>

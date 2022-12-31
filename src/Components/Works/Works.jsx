@@ -104,7 +104,6 @@ export default function Works() {
                         <div className={Styles.image__overlay}>
                             <div className={Styles.image__links}>
                                 <a href='https://github.com/leadavfar/FT16a-PI-Food.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
-                                <a href='https://www.linkedin.com/feed/update/urn:li:activity:6851197100428996610/' target="_blank"><div className={Styles.image__link__container}> <FaLink className={Styles.image__link} /></div></a>
                                 <Link to='/Works/TheFoodPageInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>
@@ -122,7 +121,6 @@ export default function Works() {
 
                         <div className={Styles.image__overlay}>
                             <div className={Styles.image__links}>
-                                <a href='https://github.com/leadavfar/portfolio.git' target="_blank"><div className={Styles.image__link__container}> <SiGithub className={Styles.image__link} /></div></a>
                                 <Link to='/Works/PortfolioInfo'><div className={Styles.image__link__container}> <BsInfoCircle className={Styles.image__link} /></div></Link>
                             </div>
                         </div>

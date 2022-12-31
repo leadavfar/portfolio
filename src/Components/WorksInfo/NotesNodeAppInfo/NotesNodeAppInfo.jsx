@@ -7,7 +7,7 @@ import NotesNodeAppCarousel from "./NotesNodeAppCarousel/NotesNodeAppCarousel";
 //icons
 import {
     SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiReact, SiRedux, SiMaterialui, SiExpress,
-    SiPostgresql, SiSequelize, SiMongodb, SiGit,
+    SiPostgresql, SiSequelize, SiMongodb, SiGit, SiPassport, SiHandlebarsdotjs,
 } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { FaLink } from "react-icons/fa"
@@ -24,15 +24,15 @@ export default function NotesNodeAppInfo() {
             <div className={Styles.home} id='home'>
 
                 <div>
-                    <h1 className={Styles.title}>Le Chief Page</h1>
+                    <h1 className={Styles.title}>Notes Node App</h1>
                     <div className={Styles.description}>
-                        <p>An improved version from my first project, this time I made my own API using NodeJs and MongoDb,
-                            I also added a navbar, relevant details from the recipe steps, a renovated UI and many other improvements. <br />
-                            All the recipes data was provided by <a href='https://spoonacular.com/food-api' target="_blank">Spoonacular</a>.</p>
+                        <p>The classic notes app, you can create, read and delete notes, also you can register/login. <br />
+                            With this app I learned to use Mongodb, Mongoose and deploying a database, also I make visual components witouth a Front-end frameworks.
+                        </p>
                         <div className={Styles.containerLinks}>
                             <div className={Styles.itemContainer}><h5>Links: </h5></div>
-                            <div className={Styles.itemContainer}><a href='https://github.com/leadavfar/le-chief-page.git' target="_blank"><SiGithub className={Styles.image__link} /></a></div>
-                            <div className={Styles.itemContainer}><a href='https://le-chief-page.vercel.app/' target="_blank" ><FaLink className={Styles.image__link} /></a></div>
+                            <div className={Styles.itemContainer}><a href='https://github.com/leadavfar/notes-app' target="_blank"><SiGithub className={Styles.image__link} /></a></div>
+                            <div className={Styles.itemContainer}><a href='https://notes-app-production-0f62.up.railway.app/' target="_blank" ><FaLink className={Styles.image__link} /></a></div>
                         </div>
                     </div>
                 </div>
@@ -52,10 +52,10 @@ export default function NotesNodeAppInfo() {
                             <div className={Styles.iconOrder}><SiNodedotjs />NodeJs</div>
                             <div className={Styles.iconOrder}><SiHtml5 />HTML5</div>
                             <div className={Styles.iconOrder}><SiCss3 />CSS3</div>
-                            <div className={Styles.iconOrder}><SiReact />React</div>
-                            <div className={Styles.iconOrder}><SiRedux />Redux</div>
                             <div className={Styles.iconOrder}><SiExpress />Express</div>
                             <div className={Styles.iconOrder}><SiMongodb />MongoDB</div>
+                            <div className={Styles.iconOrder}><SiPassport />Passport</div>
+                            <div className={Styles.iconOrder}><SiHandlebarsdotjs />Handlebars</div>
                         </IconContext.Provider>
                     </div>
                 </div >
