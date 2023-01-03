@@ -25,7 +25,7 @@ export default function PortfolioCarousel() {
             </div>
             <div>
                 <img src={image2} />
-                <p>Three tabs for three aspects o </p>
+                <p>Three tabs for three aspects of my career</p>
             </div>
             <div>
                 <img src={image3} />

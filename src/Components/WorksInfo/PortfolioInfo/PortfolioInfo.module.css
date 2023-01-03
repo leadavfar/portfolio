@@ -6,7 +6,7 @@
   margin-right: 100px;
 }
 
-.home p {
+.description p {
   margin-right: 250px;
   font-size: x-large;
 }
@@ -81,9 +81,48 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
+  
+  .home {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .title {
+    font-size: 40px;
+  margin-left: 50px; 
+   margin-right: 50px; 
+    margin-bottom: 65px;
+  }
+
+  .description p {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: x-large;
+  }
+
+  
   .icons {
     font-size: 30px;
     display: grid;
+    margin-left: 0px;
+    margin-right: 0px;
     grid-template-columns: 33% 33% 33%;
+  }
+
+
+  .containerLinks {
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 60px;
+  }
+  
+  .containerLinks .itemContainer {
+    margin-right: 40px;
   }
 }

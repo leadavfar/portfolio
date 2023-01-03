@@ -43,7 +43,7 @@ export default function WeatherAppInfo() {
 
                 <div id='technologies' >
                     <hr />
-                    <h1 className={Styles.title} >Technologies implemented</h1>
+                    <h1 className={Styles.title} >Implemented Technologies</h1>
                     <div className={Styles.icons}>
                         <IconContext.Provider value={{ className: Styles.iconStyle, size: 100 }}>
                             <div className={Styles.iconOrder}><SiJavascript />JavaScript</div>

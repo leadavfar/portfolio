@@ -21,3 +21,28 @@
     font-weight: bold;
     font-size: x-large;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    
+    .container {
+        width: 900px;
+        margin: auto;
+        color: black;
+        background-color: rgb(75, 255, 75);
+    }
+
+    .container img {
+        border-bottom: solid 6px black;
+    }
+    
+    .container p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-weight: bolder;
+        font-size: xx-large;
+        text-align: center
+    }
+
+}

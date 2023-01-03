@@ -34,7 +34,7 @@ export default function CarshopInfo() {
                             This was the final test from Henry Bootcamp, we has worked with Scrum methodology, having daily meets
                             with a product owner and talking with the team. <br />
                             Although I was worked in a Full-Stack role, I worked more time in the Front-End.<br />
-                            <b>Happy ending: </b>we approved </p>
+                            <b>Happy ending: </b>we approved. </p>
                         <div className={Styles.containerLinks}>
                             <div className={Styles.itemContainer}><h5>Links: </h5></div>
                             <div className={Styles.itemContainer}><a href='https://github.com/leadavfar/Proyecto-Final.git' target="_blank"><SiGithub className={Styles.image__link} /></a></div>
@@ -51,7 +51,7 @@ export default function CarshopInfo() {
 
                 <div id='technologies' >
                     <hr />
-                    <h1 className={Styles.title} >Technologies implemented</h1>
+                    <h1 className={Styles.title} >Implemented Technologies</h1>
                     <div className={Styles.icons}>
                         <IconContext.Provider value={{ className: Styles.iconStyle, size: 100 }}>
                             <div className={Styles.iconOrder}><SiJavascript />JavaScript</div>
