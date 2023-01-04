@@ -32,11 +32,11 @@ export default function LeChiefPageCarousel() {
                 <p>All relevant information are displayed, summary, diets, cuisines, steps and more</p>
             </div>
             <div>
-                <img src={image4} />
+                <img src={image5} />
                 <p>You can add your own recipe fully detailed with this form</p>
             </div>
             <div>
-                <img src={image5} />
+                <img src={image4} />
                 <p>Create, Read, Update and Delete your recipes</p>
             </div>
         </Slider>
