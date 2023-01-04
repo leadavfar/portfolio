@@ -34,7 +34,7 @@ export default function CarshopInfo() {
                             This was the final test from Henry Bootcamp, we has worked with Scrum methodology, having daily meets
                             with a product owner and talking with the team. <br />
                             Although I was worked in a Full-Stack role, I worked more time in the Front-End.<br />
-                            <b>Happy ending: </b>we approved. </p>
+                            <b>Happy ending: </b>We pass. </p>
                         <div className={Styles.containerLinks}>
                             <div className={Styles.itemContainer}><h5>Links: </h5></div>
                             <div className={Styles.itemContainer}><a href='https://github.com/leadavfar/Proyecto-Final.git' target="_blank"><SiGithub className={Styles.image__link} /></a></div>
