@@ -1,0 +1,128 @@
+.home {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.description p {
+  margin-right: 250px;
+  font-size: x-large;
+}
+
+
+.title {
+  font-size: 40px;
+  /* margin-left: 100px; */
+  /*   margin-right: 100px; */
+  margin-bottom: 65px;
+}
+
+.title::after {
+  content: '';
+  width: 8%;
+  height: 5px;
+  display: block;
+  background: rgb(100, 100, 100);
+  border-radius: 100px;
+}
+
+.containerLinks {
+  display: flex;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.containerLinks .itemContainer {
+  margin-right: 20px;
+}
+
+.image__link {
+  color: white;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.image__link:hover {
+  cursor: pointer;
+  color: rgb(75, 255, 75);
+}
+
+.description {
+  margin-left: 50px;
+}
+
+.icons {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.icons .iconStyle {
+  color: rgb(75, 255, 75);
+  margin-bottom: 20px;
+}
+
+.iconOrder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.iconOrder:hover {
+  transition-duration: 250ms;
+  text-shadow: white 0px 0px 5px, 0px 0px 5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  
+  .home {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .title {
+    font-size: 40px;
+  margin-left: 50px; 
+   margin-right: 50px; 
+    margin-bottom: 65px;
+  }
+
+  .description p {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: x-large;
+  }
+
+  
+  .icons {
+    font-size: 30px;
+    display: grid;
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+
+  .containerLinks {
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 60px;
+  }
+  
+  .containerLinks .itemContainer {
+    margin-right: 40px;
+  }
+}

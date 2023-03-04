@@ -11,6 +11,7 @@ import LeChiefPageInfo from "./Components/WorksInfo/LeChiefPageInfo/LeChiefPageI
 import NotesNodeAppInfo from "./Components/WorksInfo/NotesNodeAppInfo/NotesNodeAppInfo";
 import WeatherAppInfo from "./Components/WorksInfo/WeatherAppInfo/WeatherAppInfo";
 import PortfolioInfo from "./Components/WorksInfo/PortfolioInfo/PortfolioInfo";
+import TicTacToeInfo from "./Components/WorksInfo/TicTacToeInfo/TicTacToeInfo";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
           <Route exact path="/Works/NotesNodeAppInfo" component={NotesNodeAppInfo} />
           <Route exact path="/Works/WeatherAppInfo" component={WeatherAppInfo} />
           <Route exact path="/Works/PortfolioInfo" component={PortfolioInfo} />
+          <Route exact path="/Works/TicTacToeInfo" component={TicTacToeInfo} />
         </Switch>
       </div>
     </Router>
