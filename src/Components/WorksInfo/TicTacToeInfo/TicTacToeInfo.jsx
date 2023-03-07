@@ -6,7 +6,7 @@ import Footer from "../../Footer/Footer";
 import WeatherAppCarousel from "./TicTacToeCarousel/TicTacToeCarousel";
 //icons
 import {
-    SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiReact, SiRedux, SiMaterialui, SiExpress,
+    SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiReact, SiRedux, SiExpress,
     SiPostgresql, SiSequelize, SiMongodb, SiGit,SiAngular
 } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
@@ -46,10 +46,10 @@ export default function TicTacToeInfo() {
                     <h1 className={Styles.title} >Implemented Technologies</h1>
                     <div className={Styles.icons}>
                         <IconContext.Provider value={{ className: Styles.iconStyle, size: 100 }}>
-                        <div className={Styles.iconOrder}><SiAngular />Angular</div>
-                        <div className={Styles.iconOrder}><SiMaterialui />MaterialUi</div>
+                            <div className={Styles.iconOrder}><SiAngular />Angular</div>
                             <div className={Styles.iconOrder}><SiJavascript />JavaScript</div>
                             <div className={Styles.iconOrder}><SiCss3 />CSS3</div>
+                            <div className={Styles.iconOrder}>MaterialUi</div>
                         </IconContext.Provider>
                     </div>
                 </div >

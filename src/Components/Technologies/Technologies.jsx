@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiReact, SiAngular, SiRedux, SiMaterialui, SiExpress,
+    SiJavascript, SiNodedotjs, SiHtml5, SiCss3, SiTypescript, SiReact, SiAngular, SiRedux, SiExpress,
     SiPostgresql, SiSequelize, SiMongodb, SiGit,
 } from "react-icons/si";
 import { IconContext } from "react-icons";
@@ -22,11 +22,11 @@ export default function Technologies() {
                     <div className={Styles.iconOrder}><SiReact />React</div>
                     <div className={Styles.iconOrder}><SiRedux />Redux</div>
                     <div className={Styles.iconOrder}><SiAngular />Angular</div>
-                    <div className={Styles.iconOrder}><SiMaterialui />Material UI</div>
                     <div className={Styles.iconOrder}><SiPostgresql />PostgreSQL</div>
                     <div className={Styles.iconOrder}><SiSequelize />Sequelize</div>
                     <div className={Styles.iconOrder}><SiMongodb />MongoDB</div>
                     <div className={Styles.iconOrder}><SiGit />Git</div>
+                    <div className={Styles.iconOrder}><h3>Material UI</h3></div>
                 </IconContext.Provider>
             </div>
         </div >
